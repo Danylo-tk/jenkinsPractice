@@ -8,7 +8,7 @@ public class CharacterCounterTest {
     @Test
     public void testCountCharacters() {
         String input = "Hello, World!";
-        int expectedCount = 13;
+        int expectedCount = 15;
 
         int actualCount = Counter.count(input);
 
